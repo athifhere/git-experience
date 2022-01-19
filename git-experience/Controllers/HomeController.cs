@@ -16,6 +16,7 @@ namespace git_experience.Controllers
         public IActionResult Index()
         {
             var data = "Hello";
+            data = "Hello world!";
             return View();
         }
 
